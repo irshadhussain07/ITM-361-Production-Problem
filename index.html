@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<h2>Volunteer Form</h2>
+		
+		
+		 <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+		 <fieldset>
+		 <legend>My Info</legend>
+		 <input type="hidden" name="hidden_field" value="ihussai1">
+		 <ul>
+  <li><label >First name: </label>
+  <input type="text" name="first_name_field" placeholder="First Name"></li>
+  <li><label >Last name:</label>
+  <input type="text" name="last_name_field" placeholder="Last Name"></li>
+  <li><label >Phone Number:</label>
+  <input type="text" name="phone_field" placeholder="Phone Number"></li>
+  <li><label >Email Address:</label>
+  <input type="email" name="email_field" placeholder="Your@email"></li>
+  <li><label >Gender: </label>
+<input type="radio" name="gender_field" value="male"> Male
+<input type="radio" name="gender_field" value="female" checked> Female </li>
+  <li><label >Age:</label>
+  <select name="age_field">
+  <option value="Under 18">Under 18</option>
+  <option value="18-24">18-24</option>
+  <option value="25-34">25-34</option>
+  <option value="35-44">35-44</option>
+    <option value="45-54">45-54</option>
+      <option value="55-64">55-64</option>
+        <option value="64 and over">64 and over</option>
+</select></li>
+</ul>
+</fieldset>
+<fieldset>
+<legend>My Availability</legend>
+Days Available
+
+ <br>
+<input type="checkbox" name="available_field[]" value="Sunday"> Sunday<br>
+<input type="checkbox" name="available_field[]" value="Monday"> Monday<br>
+<input type="checkbox" name="available_field[]" value="Tuesday"> Tuesday<br>
+<input type="checkbox" name="available_field[]" value="Wednesday"> Wednesday<br>
+<input type="checkbox" name="available_field[]" value="Thursday"> Thursday<br>
+<input type="checkbox" name="available_field[]" value="Friday"> Friday<br>
+<input type="checkbox" name="available_field[]" value="Saturday"> Saturday<br>
+<br>
+
+Any Comments:<br>
+<TEXTAREA name="comments_field" ROWS=10 COLS=50>
+
+
+</TEXTAREA> 
+<br>
+<button type="submit">Send Me</button>
+		</fieldset>
+		</form> 
+
+
+	</body>
+</html>
